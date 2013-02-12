@@ -80,6 +80,8 @@
 		C15B34C71697A02400FB5EFE /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		C15B34CA1697A04700FB5EFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C15B34CB1697A04700FB5EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5F9D13D16CA0894000269B1 /* pageiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageiterator.h; sourceTree = "<group>"; };
+		C5F9D13E16CA093C000269B1 /* resultiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultiterator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,8 @@
 		C15B34B71697A02400FB5EFE /* tesseract */ = {
 			isa = PBXGroup;
 			children = (
+				C5F9D13E16CA093C000269B1 /* resultiterator.h */,
+				C5F9D13D16CA0894000269B1 /* pageiterator.h */,
 				C15B34B81697A02400FB5EFE /* apitypes.h */,
 				C15B34B91697A02400FB5EFE /* baseapi.h */,
 				C15B34BA1697A02400FB5EFE /* errcode.h */,
@@ -383,6 +387,7 @@
 				C15B348B16979EDE00FB5EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
